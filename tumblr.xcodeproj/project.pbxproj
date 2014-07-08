@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401389E8196B9F7E009BA715 /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401389E6196B9F7E009BA715 /* TrendingViewController.m */; };
+		401389E9196B9F7E009BA715 /* TrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401389E7196B9F7E009BA715 /* TrendingViewController.xib */; };
 		40356C2F1969EFE600EC32E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C2E1969EFE600EC32E7 /* main.m */; };
 		40356C321969EFE600EC32E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C311969EFE600EC32E7 /* AppDelegate.m */; };
 		40356C341969EFE600EC32E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40356C331969EFE600EC32E7 /* Images.xcassets */; };
 		40356C401969EFE600EC32E7 /* tumblrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C3F1969EFE600EC32E7 /* tumblrTests.m */; };
+		40356C4C1969F28F00EC32E7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C4A1969F28F00EC32E7 /* HomeViewController.m */; };
+		40356C4D1969F28F00EC32E7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40356C4B1969F28F00EC32E7 /* HomeViewController.xib */; };
+		40356C511969F2AD00EC32E7 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C4F1969F2AD00EC32E7 /* ExploreViewController.m */; };
+		40356C521969F2AD00EC32E7 /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40356C501969F2AD00EC32E7 /* ExploreViewController.xib */; };
+		40356C561969F2C800EC32E7 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C541969F2C800EC32E7 /* ComposeViewController.m */; };
+		40356C571969F2C800EC32E7 /* ComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40356C551969F2C800EC32E7 /* ComposerViewController.xib */; };
+		40356C5B1969F2DE00EC32E7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C591969F2DE00EC32E7 /* ProfileViewController.m */; };
+		40356C5C1969F2DE00EC32E7 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40356C5A1969F2DE00EC32E7 /* ProfileViewController.xib */; };
+		40356C6A1969FA6600EC32E7 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40356C681969FA6600EC32E7 /* TabBarViewController.m */; };
+		40356C6B1969FA6600EC32E7 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40356C691969FA6600EC32E7 /* TabBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401389E5196B9F7E009BA715 /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrendingViewController.h; path = ../TrendingViewController.h; sourceTree = "<group>"; };
+		401389E6196B9F7E009BA715 /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrendingViewController.m; path = ../TrendingViewController.m; sourceTree = "<group>"; };
+		401389E7196B9F7E009BA715 /* TrendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrendingViewController.xib; path = ../TrendingViewController.xib; sourceTree = "<group>"; };
 		40356C291969EFE500EC32E7 /* tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40356C2D1969EFE600EC32E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40356C2E1969EFE600EC32E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,6 +48,21 @@
 		40356C391969EFE600EC32E7 /* tumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40356C3E1969EFE600EC32E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40356C3F1969EFE600EC32E7 /* tumblrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tumblrTests.m; sourceTree = "<group>"; };
+		40356C491969F28F00EC32E7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		40356C4A1969F28F00EC32E7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		40356C4B1969F28F00EC32E7 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		40356C4E1969F2AD00EC32E7 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		40356C4F1969F2AD00EC32E7 /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		40356C501969F2AD00EC32E7 /* ExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExploreViewController.xib; sourceTree = "<group>"; };
+		40356C531969F2C800EC32E7 /* ComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposerViewController.h; sourceTree = "<group>"; };
+		40356C541969F2C800EC32E7 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		40356C551969F2C800EC32E7 /* ComposerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposerViewController.xib; sourceTree = "<group>"; };
+		40356C581969F2DE00EC32E7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		40356C591969F2DE00EC32E7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		40356C5A1969F2DE00EC32E7 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		40356C671969FA6600EC32E7 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		40356C681969FA6600EC32E7 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		40356C691969FA6600EC32E7 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +107,24 @@
 				40356C301969EFE600EC32E7 /* AppDelegate.h */,
 				40356C311969EFE600EC32E7 /* AppDelegate.m */,
 				40356C331969EFE600EC32E7 /* Images.xcassets */,
+				40356C671969FA6600EC32E7 /* TabBarViewController.h */,
+				40356C681969FA6600EC32E7 /* TabBarViewController.m */,
+				40356C691969FA6600EC32E7 /* TabBarViewController.xib */,
+				40356C491969F28F00EC32E7 /* HomeViewController.h */,
+				40356C4A1969F28F00EC32E7 /* HomeViewController.m */,
+				40356C4B1969F28F00EC32E7 /* HomeViewController.xib */,
+				40356C4E1969F2AD00EC32E7 /* ExploreViewController.h */,
+				40356C4F1969F2AD00EC32E7 /* ExploreViewController.m */,
+				40356C501969F2AD00EC32E7 /* ExploreViewController.xib */,
+				40356C531969F2C800EC32E7 /* ComposerViewController.h */,
+				40356C541969F2C800EC32E7 /* ComposeViewController.m */,
+				40356C551969F2C800EC32E7 /* ComposerViewController.xib */,
+				40356C581969F2DE00EC32E7 /* ProfileViewController.h */,
+				40356C591969F2DE00EC32E7 /* ProfileViewController.m */,
+				40356C5A1969F2DE00EC32E7 /* ProfileViewController.xib */,
+				401389E5196B9F7E009BA715 /* TrendingViewController.h */,
+				401389E6196B9F7E009BA715 /* TrendingViewController.m */,
+				401389E7196B9F7E009BA715 /* TrendingViewController.xib */,
 				40356C2C1969EFE500EC32E7 /* Supporting Files */,
 			);
 			path = tumblr;
@@ -187,7 +235,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40356C521969F2AD00EC32E7 /* ExploreViewController.xib in Resources */,
 				40356C341969EFE600EC32E7 /* Images.xcassets in Resources */,
+				40356C571969F2C800EC32E7 /* ComposerViewController.xib in Resources */,
+				40356C5C1969F2DE00EC32E7 /* ProfileViewController.xib in Resources */,
+				401389E9196B9F7E009BA715 /* TrendingViewController.xib in Resources */,
+				40356C6B1969FA6600EC32E7 /* TabBarViewController.xib in Resources */,
+				40356C4D1969F28F00EC32E7 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40356C511969F2AD00EC32E7 /* ExploreViewController.m in Sources */,
 				40356C321969EFE600EC32E7 /* AppDelegate.m in Sources */,
 				40356C2F1969EFE600EC32E7 /* main.m in Sources */,
+				40356C6A1969FA6600EC32E7 /* TabBarViewController.m in Sources */,
+				40356C561969F2C800EC32E7 /* ComposeViewController.m in Sources */,
+				401389E8196B9F7E009BA715 /* TrendingViewController.m in Sources */,
+				40356C5B1969F2DE00EC32E7 /* ProfileViewController.m in Sources */,
+				40356C4C1969F28F00EC32E7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +444,7 @@
 				40356C451969EFE600EC32E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40356C461969EFE600EC32E7 /* Build configuration list for PBXNativeTarget "tumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +453,7 @@
 				40356C481969EFE600EC32E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
